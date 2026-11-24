@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "Mala Pronta",
+    "slug": "mala-pronta",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
