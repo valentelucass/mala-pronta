@@ -4,9 +4,9 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import TelaDetalhes from '../pages/TelaDetalhes';
 import TelaFormulario from '../pages/TelaFormulario';
 import TelaLista from '../pages/TelaLista';
-import TelaLogin from '../../pedro/pages/TelaLogin';
-import { cores } from '../../pedro/styles/tema';
-import type { Item, SalvarItem } from '../../pedro/types/Item';
+import TelaLogin from '../pages/TelaLogin';
+import { cores } from '../styles/tema';
+import type { Item, SalvarItem } from '../types/Item';
 import type { Rotas } from './rotas';
 
 const Stack = createNativeStackNavigator<Rotas>();

@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
-import Navegacao from './src/miguel/navigation/Navegacao';
-import { ErroApi, requisicao } from './src/pedro/services/api';
-import type { Metodo } from './src/pedro/services/api';
-import type { Item } from './src/pedro/types/Item';
+import Navegacao from './src/navigation/Navegacao';
+import { ErroApi, requisicao } from './src/services/api';
+import type { Metodo } from './src/services/api';
+import type { Item } from './src/types/Item';
 
 export default function App() {
   const [token, setToken] = useState('');

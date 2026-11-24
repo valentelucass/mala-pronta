@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 import { ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
-import { mensagemErro } from '../../pedro/services/api';
-import Botao from '../../pedro/components/Botao';
-import Icone from '../../pedro/components/Icone';
-import { cores, estilos, raios } from '../../pedro/styles/tema';
+import { mensagemErro } from '../services/api';
+import Botao from '../components/Botao';
+import Icone from '../components/Icone';
+import { cores, estilos, raios } from '../styles/tema';
 import type { Rotas } from '../navigation/rotas';
-import type { Item, SalvarItem } from '../../pedro/types/Item';
+import type { Item, SalvarItem } from '../types/Item';
 
 type Props = {
   navigation: NativeStackNavigationProp<Rotas, 'Detalhes'>;
